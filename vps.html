@@ -1,165 +1,215 @@
 <!DOCTYPE html>
-<head lang="id">
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>TOKO DIGITAL FSLSTORE</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .video-background {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-            transform: translate(-50%, -50%);
-        }
-        .content {
-            position: relative;
-            z-index: 1;
-            color: wheat; 
-            text-align: center;
-            padding: 20px;
-        }
-        .header {
-            background-image: url('https://pomf2.lain.la/f/cqt362vg.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-            padding: 15px 20px; 
-            display: center;
-            align-items: center; 
-            text-align: center;
-            border-radius: 20px;
-            font-size: 25px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        tr, td {
-            padding: 12px;
-            text-align: left;
-            border: 1px solid #ccc;
-            background-color: #ffffff;
-        }
-        th {
-            background-color: #007bff;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        .action-buttons {
-            display: flex;
-            gap: 10px;
-        }
-        .button {
-            padding: 8px 15px;
-            background-color: #28a745;
-            color: wheat;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            justify-content: space-between;
-        }
-        .button-hover {
-            background-color: #218838;
-        }
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>AORTA PORTO</title>
 </head>
+
 <body>
-    <video autoplay muted loop class="video-background">
-        <source src="https://pomf2.lain.la/f/s8weo3o7.mp4" type="video/mp4">
-        TOKO DIGITAL FSLSTORE
-    </video>
-    <br><div class="header">
-        <h2>TOKO DIGITAL FSLSTORE</h2>
-        <p>Silahkan Pilih Menu Di Bawah Untuk Melihat Beberapa Produk Kami</p>
-    </div><br>
-    <div class="header">
-        <h3>DAFTAR PRODUK</h3>
-    </div><br>
-    <table>
-        <thead>
-            <th>Nama Barang</th>
-            <th>Deskripsi</th>
-            <th>Harga</th>
-            <th>Aksi</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>DIGITAL OCEAN</td>
-                <td>RAM 2 CORE 1</td>
-                <td>Rp 30.000</td>
-                <td class="action-buttons">
-                <a href="https://whatsapp.com/channel/0029VaeRhkQ2975CRIjWZY1z"><button class="button">Testimoni</button></a>
-                <a href="https://wa.me/6283853531314?text=Bang%20Ini%20Saya%20Udah+Tf"><button class="button">Owner</button></a> 
-                <a href="https://pomf2.lain.la/f/6y1om4f.jpg"><button class="button">Beli</button></a>
-                </td>
-            </tr>
-            <tr>
-                <td>DIGITAL OCEAN</td>
-                <td>RAM 4 CORE 2</td>
-                <td>Rp 40.000</td>
-                <td class="action-buttons">
-                <a href="https://whatsapp.com/channel/0029VaeRhkQ2975CRIjWZY1z"><button class="button">Testimoni</button></a>
-                <a href="https://wa.me/6283853531314?text=Bang%20Ini%20Saya%20Udah+Tf"><button class="button">Owner</button></a> 
-                <a href="https://pomf2.lain.la/f/6y1om4f.jpg"><button class="button">Beli</button></a>
-                </td>
-            </tr>
-            <tr>
-                <td>DIGITAL OCEAN</td>
-                <td>RAM 8 CORE 4</td>
-                <td>Rp 60.000</td>
-                <td class="action-buttons">
-                <a href="https://whatsapp.com/channel/0029VaeRhkQ2975CRIjWZY1z"><button class="button">Testimoni</button></a>
-                <a href="https://wa.me/6283853531314?text=Bang%20Ini%20Saya%20Udah+Tf"><button class="button">Owner</button></a> 
-                <a href="https://pomf2.lain.la/f/6y1om4f.jpg"><button class="button">Beli</button></a>
-                </td>
-            </tr>
-            <tr>
-                <td>PANEL PRIVATE</td>
-                <td>UNLIMITED</td>
-                <td>Rp 20.000</td>
-                <td class="action-buttons">
-                <a href="https://whatsapp.com/channel/0029VaeRhkQ2975CRIjWZY1z"><button class="button">Testimoni</button></a>
-                <a href="https://wa.me/6283853531314?text=Bang%20Ini%20Saya%20Udah+Tf"><button class="button">Owner</button></a> 
-                <a href="https://pomf2.lain.la/f/6y1om4f.jpg"><button class="button">Beli</button></a>
-                </td>
-            </tr>
-            <tr>
-                <td>PANEL PRIVATE</td>
-                <td>PERPANJANG</td>
-                <td>Rp 15.000</td>
-                <td class="action-buttons">
-                <a href="https://whatsapp.com/channel/0029VaeRhkQ2975CRIjWZY1z"><button class="button">Testimoni</button></a>
-                <a href="https://wa.me/6283853531314?text=Bang%20Ini%20Saya%20Udah+Tf"><button class="button">Owner</button></a> 
-                <a href="https://pomf2.lain.la/f/6y1om4f.jpg"><button class="button">Beli</button></a>
-                </td>
-            </tr>
-        </tbody>
-    </table><br>
-</body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">AORTA GALAXY</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <!-- <li class="nav__item"><a href="#work" class="nav__link">Work</a></li> -->
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">AORTA GALAXY</span><br> Web Developer</h1>
+
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://wa.me/+6288808011465" class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
+                <a href="-" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="t.me/Anggzzstore" class="home__social-icon"><i class='bx bxl-telegram' ></i></a>
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-twitter' ></i></a> -->
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-facebook' ></i></a> -->
+                <a href="-" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="perfil2.png"/>
+                        </g>
+                    </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="perfil2.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Aorta</h2>
+                    <p class="about__text">AORTA ADALAH WEB DEV YANG SEDANG TERSAKITI :).</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">My Skills</h2>
+                    <p class="skills__text">STANDAR AE NGAB, NGGAK SEJAGO ORANG² DI LUAR SANA, KENALIN YAK GW AORTA GALAXY .</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/work1.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work2.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work3.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work4.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work5.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </a>
+            </div>
+        </section> -->
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Aorta</p>
+        <div class="footer__social">
+            <a href="https://wa.me/+6288808011465" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+            <a href="-" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="t.me/Anggzzstore" class="footer__icon"><i class='bx bxl-telegram' ></i></a>
+            <!-- <a href="" class="home__social-icon"><i class='bx bxl-twitter' ></i></a> -->
+            <!-- <a href="" class="home__social-icon"><i class='bx bxl-facebook' ></i></a> -->
+            <a href="-" class="footer__icon"><i class='bx bxl-github' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; AORTA GALAXY  All rigths reserved</p>
+    </footer>
 
 
-</div>
-<div class="content">
-    <h2>WELCOME TO VPS</h2>
-    <p>TRX NO REFF<br>SCAN QRIS DIATAS<br>NO DODOS<br>FREE INSTALL<br>MASA AKTIF 1 BULAN<br>GARANSI 25H<br><br><br><br>CREATED BY FSLSTORE</p>
-</div>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
